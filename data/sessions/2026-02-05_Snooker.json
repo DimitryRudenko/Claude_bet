@@ -1,0 +1,15 @@
+{
+  "id": "2026-02-05_Snooker",
+  "date": "2026-02-05",
+  "sport": "Snooker",
+  "competition": "World Grand Prix Hong Kong",
+  "status": "completed",
+  "budget": 30,
+  "staked": 30,
+  "profit": 1.50,
+  "roi": 5,
+  "bets": [
+    {"id": "P1", "match": "Yuan Sijun vs Ali Carter", "pick": "Yuan Sijun ML", "stake": 15, "odds": 2.20, "confidence": 72, "status": "lost"},
+    {"id": "P2", "match": "Zhao Xintong vs Mark Selby", "pick": "Zhao Xintong ML", "stake": 15, "odds": 2.10, "confidence": 75, "status": "won"}
+  ]
+}

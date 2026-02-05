@@ -1,0 +1,17 @@
+{
+  "id": "2026-02-04_NBA",
+  "date": "2026-02-04",
+  "sport": "NBA",
+  "competition": "NBA Regular Season",
+  "status": "completed",
+  "budget": 60,
+  "staked": 60,
+  "profit": 66.01,
+  "roi": 110,
+  "bets": [
+    {"id": "P1", "match": "Magic vs Knicks", "pick": "Magic +5.5", "stake": 20, "odds": 1.91, "confidence": 78, "status": "won"},
+    {"id": "P2", "match": "Bulls vs Wizards", "pick": "Bulls ML", "stake": 15, "odds": 1.45, "confidence": 82, "status": "won"},
+    {"id": "P3", "match": "Kings vs Celtics", "pick": "Kings ML", "stake": 10, "odds": 3.25, "confidence": 62, "status": "won"},
+    {"id": "P4", "match": "Combin\u00e9", "pick": "Magic+Bulls+Celtics", "stake": 15, "odds": 4.30, "confidence": 70, "status": "won"}
+  ]
+}

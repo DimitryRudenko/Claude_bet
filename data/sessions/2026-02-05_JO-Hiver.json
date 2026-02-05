@@ -1,0 +1,14 @@
+{
+  "id": "2026-02-05_JO-Hiver",
+  "date": "2026-02-05",
+  "sport": "Curling",
+  "competition": "JO Milan-Cortina Mixed Doubles",
+  "status": "completed",
+  "budget": 25,
+  "staked": 25,
+  "profit": 7.50,
+  "roi": 30,
+  "bets": [
+    {"id": "P1", "match": "Italy+Sweden Combin\u00e9", "pick": "Italy ML + Sweden ML", "stake": 25, "odds": 1.30, "confidence": 75, "status": "won"}
+  ]
+}
