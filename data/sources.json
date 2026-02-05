@@ -1,0 +1,25 @@
+{
+  "football": {
+    "RueDesJoueurs": {"predictions": 0, "correct": 0, "accuracy": null},
+    "Sportytrader": {"predictions": 0, "correct": 0, "accuracy": null},
+    "Coteur": {"predictions": 0, "correct": 0, "accuracy": null},
+    "WinComparator": {"predictions": 0, "correct": 0, "accuracy": null},
+    "PronoSoft": {"predictions": 0, "correct": 0, "accuracy": null}
+  },
+  "tennis": {
+    "Tennis Tonic": {"predictions": 0, "correct": 0, "accuracy": null},
+    "Dimers": {"predictions": 0, "correct": 0, "accuracy": null},
+    "Last Word on Sports": {"predictions": 0, "correct": 0, "accuracy": null},
+    "Sportskeeda": {"predictions": 0, "correct": 0, "accuracy": null}
+  },
+  "nba": {
+    "CBS Sports": {"predictions": 0, "correct": 0, "accuracy": null},
+    "FOX Sports": {"predictions": 0, "correct": 0, "accuracy": null},
+    "Pickswise": {"predictions": 0, "correct": 0, "accuracy": null},
+    "Covers": {"predictions": 0, "correct": 0, "accuracy": null}
+  },
+  "rugby": {
+    "RugbyPass": {"predictions": 0, "correct": 0, "accuracy": null},
+    "Planet Rugby": {"predictions": 0, "correct": 0, "accuracy": null}
+  }
+}
