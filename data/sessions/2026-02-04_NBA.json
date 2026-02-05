@@ -4,14 +4,13 @@
   "sport": "NBA",
   "competition": "NBA Regular Season",
   "status": "completed",
-  "budget": 60,
-  "staked": 60,
-  "profit": 66.01,
-  "roi": 110,
+  "budget": 68,
+  "staked": 68,
+  "profit": 94.24,
+  "roi": 139,
   "bets": [
-    {"id": "P1", "match": "Magic vs Knicks", "pick": "Magic +5.5", "stake": 20, "odds": 1.91, "confidence": 78, "status": "won"},
-    {"id": "P2", "match": "Bulls vs Wizards", "pick": "Bulls ML", "stake": 15, "odds": 1.45, "confidence": 82, "status": "won"},
-    {"id": "P3", "match": "Kings vs Celtics", "pick": "Kings ML", "stake": 10, "odds": 3.25, "confidence": 62, "status": "won"},
-    {"id": "P4", "match": "Combin\u00e9", "pick": "Magic+Bulls+Celtics", "stake": 15, "odds": 4.30, "confidence": 70, "status": "won"}
+    {"id": "P1", "match": "NY Knicks -5", "pick": "Knicks gagnent de 5+", "stake": 26, "odds": 1.72, "confidence": 78, "status": "won"},
+    {"id": "P2", "match": "Memphis Grizzlies", "pick": "Grizzlies ML", "stake": 20, "odds": 1.96, "confidence": 75, "status": "won"},
+    {"id": "P3", "match": "Combiné", "pick": "Knicks+Spurs+Grizzlies", "stake": 22, "odds": 3.56, "confidence": 70, "status": "won"}
   ]
 }
