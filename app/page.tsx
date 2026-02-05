@@ -5,10 +5,11 @@ import nbaSession from '@/data/sessions/2026-02-04_NBA.json';
 import tennisSession from '@/data/sessions/2026-02-05_Tennis.json';
 import joSession from '@/data/sessions/2026-02-05_JO-Hiver.json';
 import snookerSession from '@/data/sessions/2026-02-05_Snooker.json';
+import rugbySession from '@/data/sessions/2026-02-05_Rugby.json';
 import type { Session, Bet } from './types';
 
 export default function Home() {
-  const sessions: Session[] = [tennisSession, joSession, snookerSession, nbaSession, footballSession] as Session[];
+  const sessions: Session[] = [rugbySession, tennisSession, joSession, snookerSession, nbaSession, footballSession] as Session[];
   const recentSessions = sessions.slice(0, 5);
 
   const pendingBets: (Bet & { sessionId: string; sport: string })[] = sessions
