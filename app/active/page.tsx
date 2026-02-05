@@ -1,10 +1,9 @@
 import Link from 'next/link';
-import tennisSession from '@/data/sessions/2026-02-05_Tennis.json';
-import rugbySession from '@/data/sessions/2026-02-05_Rugby.json';
-import type { Session, Bet } from '../types';
+import { getAllSessions } from '@/lib/sessions';
+import type { Bet } from '../types';
 
 export default function ActivePage() {
-  const sessions: Session[] = [rugbySession, tennisSession] as Session[];
+  const sessions = getAllSessions();
   const pendingSessions = sessions.filter((s) => s.status === 'pending');
 
   const allPendingBets: (Bet & { sessionId: string; sport: string })[] = pendingSessions.flatMap((s) =>

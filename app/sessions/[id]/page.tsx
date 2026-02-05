@@ -1,27 +1,12 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import footballSession from '@/data/sessions/2026-02-03_Football.json';
-import nbaSession from '@/data/sessions/2026-02-04_NBA.json';
-import tennisSession from '@/data/sessions/2026-02-05_Tennis.json';
-import joSession from '@/data/sessions/2026-02-05_JO-Hiver.json';
-import snookerSession from '@/data/sessions/2026-02-05_Snooker.json';
-import rugbySession from '@/data/sessions/2026-02-05_Rugby.json';
-import type { Session } from '../../types';
-
-const sessionsMap: Record<string, Session> = {
-  '2026-02-03_Football': footballSession as Session,
-  '2026-02-04_NBA': nbaSession as Session,
-  '2026-02-05_Tennis': tennisSession as Session,
-  '2026-02-05_JO-Hiver': joSession as Session,
-  '2026-02-05_Snooker': snookerSession as Session,
-  '2026-02-05_Rugby': rugbySession as Session,
-};
+import { getSessionById, getAllSessionIds } from '@/lib/sessions';
 
 interface PageProps { params: Promise<{ id: string }>; }
 
 export default async function SessionDetailPage({ params }: PageProps) {
   const { id } = await params;
-  const session = sessionsMap[id];
+  const session = getSessionById(id);
   if (!session) notFound();
 
   const wonBets = session.bets.filter((b) => b.status === 'won').length;
@@ -133,12 +118,6 @@ export default async function SessionDetailPage({ params }: PageProps) {
 }
 
 export function generateStaticParams() {
-  return [
-    { id: '2026-02-03_Football' },
-    { id: '2026-02-04_NBA' },
-    { id: '2026-02-05_Tennis' },
-    { id: '2026-02-05_JO-Hiver' },
-    { id: '2026-02-05_Snooker' },
-    { id: '2026-02-05_Rugby' },
-  ];
+  const ids = getAllSessionIds();
+  return ids.map((id) => ({ id }));
 }

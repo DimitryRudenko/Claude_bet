@@ -1,16 +1,11 @@
 import Link from 'next/link';
+import { getAllSessions } from '@/lib/sessions';
 import stats from '@/data/stats.json';
-import footballSession from '@/data/sessions/2026-02-03_Football.json';
-import nbaSession from '@/data/sessions/2026-02-04_NBA.json';
-import tennisSession from '@/data/sessions/2026-02-05_Tennis.json';
-import joSession from '@/data/sessions/2026-02-05_JO-Hiver.json';
-import snookerSession from '@/data/sessions/2026-02-05_Snooker.json';
-import rugbySession from '@/data/sessions/2026-02-05_Rugby.json';
-import type { Session, Bet } from './types';
+import type { Bet } from './types';
 
 export default function Home() {
-  const sessions: Session[] = [rugbySession, tennisSession, joSession, snookerSession, nbaSession, footballSession] as Session[];
-  const recentSessions = sessions.slice(0, 5);
+  const sessions = getAllSessions();
+  const recentSessions = sessions.slice(0, 6);
 
   const pendingBets: (Bet & { sessionId: string; sport: string })[] = sessions
     .filter((s) => s.status === 'pending')

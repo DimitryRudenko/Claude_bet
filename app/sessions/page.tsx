@@ -1,14 +1,8 @@
 import Link from 'next/link';
-import footballSession from '@/data/sessions/2026-02-03_Football.json';
-import nbaSession from '@/data/sessions/2026-02-04_NBA.json';
-import tennisSession from '@/data/sessions/2026-02-05_Tennis.json';
-import joSession from '@/data/sessions/2026-02-05_JO-Hiver.json';
-import snookerSession from '@/data/sessions/2026-02-05_Snooker.json';
-import rugbySession from '@/data/sessions/2026-02-05_Rugby.json';
-import type { Session } from '../types';
+import { getAllSessions } from '@/lib/sessions';
 
 export default function SessionsPage() {
-  const sessions: Session[] = [rugbySession, tennisSession, joSession, snookerSession, nbaSession, footballSession] as Session[];
+  const sessions = getAllSessions();
 
   const completedSessions = sessions.filter((s) => s.status === 'completed');
   const pendingSessions = sessions.filter((s) => s.status === 'pending');
