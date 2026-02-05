@@ -5,6 +5,7 @@ import nbaSession from '@/data/sessions/2026-02-04_NBA.json';
 import tennisSession from '@/data/sessions/2026-02-05_Tennis.json';
 import joSession from '@/data/sessions/2026-02-05_JO-Hiver.json';
 import snookerSession from '@/data/sessions/2026-02-05_Snooker.json';
+import rugbySession from '@/data/sessions/2026-02-05_Rugby.json';
 import type { Session } from '../../types';
 
 const sessionsMap: Record<string, Session> = {
@@ -13,6 +14,7 @@ const sessionsMap: Record<string, Session> = {
   '2026-02-05_Tennis': tennisSession as Session,
   '2026-02-05_JO-Hiver': joSession as Session,
   '2026-02-05_Snooker': snookerSession as Session,
+  '2026-02-05_Rugby': rugbySession as Session,
 };
 
 interface PageProps { params: Promise<{ id: string }>; }
@@ -137,5 +139,6 @@ export function generateStaticParams() {
     { id: '2026-02-05_Tennis' },
     { id: '2026-02-05_JO-Hiver' },
     { id: '2026-02-05_Snooker' },
+    { id: '2026-02-05_Rugby' },
   ];
 }
