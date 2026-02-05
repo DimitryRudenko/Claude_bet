@@ -5,13 +5,14 @@
   "competition": "Six Nations - France vs Irlande",
   "status": "pending",
   "budget": 100,
-  "staked": 85,
+  "staked": 100,
   "profit": null,
   "roi": null,
   "bets": [
     {"id": "P1", "match": "France vs Irlande", "pick": "Bielle-Biarrey marque + France gagne", "stake": 30, "odds": 1.90, "confidence": 78, "status": "pending"},
     {"id": "P2", "match": "France vs Irlande", "pick": "Irlande +13 handicap", "stake": 25, "odds": 1.75, "confidence": 75, "status": "pending"},
     {"id": "P3", "match": "France vs Irlande", "pick": "Dupont marque essai", "stake": 20, "odds": 2.50, "confidence": 72, "status": "pending"},
-    {"id": "P5", "match": "France vs Irlande", "pick": "Bielle-Biarrey 1er marqueur", "stake": 10, "odds": 7.00, "confidence": 55, "status": "pending"}
+    {"id": "P5", "match": "France vs Irlande", "pick": "Bielle-Biarrey 1er marqueur", "stake": 10, "odds": 7.00, "confidence": 55, "status": "pending"},
+    {"id": "P6", "match": "France vs Irlande", "pick": "Bielle-Biarrey 2+ essais (doublé)", "stake": 15, "odds": 5.00, "confidence": 50, "status": "pending"}
   ]
 }
