@@ -10,9 +10,9 @@
   "roi": null,
   "bets": [
     {"id": "P1", "match": "Cirstea vs Potapova", "pick": "Cirstea ML", "stake": 15, "odds": 1.53, "confidence": 82, "status": "pending"},
-    {"id": "P2", "match": "Parks vs Volynets", "pick": "Parks ML", "stake": 12, "odds": 1.76, "confidence": 76, "status": "pending"},
+    {"id": "P2", "match": "Parks vs Volynets", "pick": "Parks ML", "stake": 12, "odds": 1.76, "confidence": 76, "status": "lost"},
     {"id": "P3", "match": "McNally vs Korpatsch", "pick": "McNally ML", "stake": 10, "odds": 1.30, "confidence": 74, "status": "pending"},
     {"id": "P4", "match": "Fruhvirtova vs Boulter", "pick": "Fruhvirtova ML", "stake": 8, "odds": 2.20, "confidence": 65, "status": "pending"},
-    {"id": "P5", "match": "Combin\u00e9 FAA+Cirstea+Parks", "pick": "Triple ML", "stake": 10, "odds": 3.57, "confidence": 72, "status": "pending"}
+    {"id": "P5", "match": "Combiné FAA+Cirstea+Parks", "pick": "Triple ML", "stake": 10, "odds": 3.57, "confidence": 72, "status": "lost"}
   ]
 }
