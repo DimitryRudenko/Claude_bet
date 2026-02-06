@@ -1,0 +1,43 @@
+{
+  "id": "2026-02-06_Football",
+  "date": "2026-02-06",
+  "sport": "Football",
+  "competition": "Austrian BL, Bulgarian FL, Saudi Pro League",
+  "status": "pending",
+  "budget": 75,
+  "staked": 48,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "RB Salzburg vs Austria Vienna",
+      "pick": "Salzburg ML",
+      "stake": 30,
+      "odds": 1.65,
+      "confidence": 79,
+      "status": "pending",
+      "sources": ["Forebet", "Sportskeeda", "FOX Sports", "CueTracker", "FootyStats"]
+    },
+    {
+      "id": "P2",
+      "match": "Salzburg + CSKA 1948",
+      "pick": "Combiné Salzburg ML + CSKA 1948 ML",
+      "stake": 10,
+      "odds": 2.72,
+      "confidence": 74,
+      "status": "pending",
+      "sources": ["Forebet", "Sofascore", "FlashScore", "Sportytrader"]
+    },
+    {
+      "id": "P3",
+      "match": "Al Nassr vs Al Ittihad",
+      "pick": "BTTS Yes",
+      "stake": 8,
+      "odds": 1.53,
+      "confidence": 70,
+      "status": "pending",
+      "sources": ["Sportytrader", "Sportskeeda", "MightyTips", "Oddslot"]
+    }
+  ]
+}
