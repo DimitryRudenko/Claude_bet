@@ -1,0 +1,43 @@
+{
+  "id": "2026-02-06_Football-Soiree",
+  "date": "2026-02-06",
+  "sport": "Football",
+  "competition": "Bundesliga + La Liga - Soirée 6 Février",
+  "status": "pending",
+  "budget": 75,
+  "staked": 62,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Union Berlin vs Eintracht Frankfurt",
+      "pick": "BTTS Oui",
+      "stake": 40,
+      "odds": 1.73,
+      "confidence": 79,
+      "status": "pending",
+      "sources": ["RueDesJoueurs", "Sportytrader", "FootballWhispers", "MightyTips", "Forebet", "Betfred", "Understat", "FBref"]
+    },
+    {
+      "id": "P2",
+      "match": "Union Berlin BTTS + Celta Vigo ML",
+      "pick": "Combiné BTTS Union + Celta ML",
+      "stake": 12,
+      "odds": 3.36,
+      "confidence": 72,
+      "status": "pending",
+      "sources": ["RueDesJoueurs", "Sportytrader", "Dimers", "Sportskeeda", "MightyTips", "FootballWhispers"]
+    },
+    {
+      "id": "P3",
+      "match": "Celta Vigo vs Osasuna",
+      "pick": "Celta Vigo ML",
+      "stake": 10,
+      "odds": 1.94,
+      "confidence": 71,
+      "status": "pending",
+      "sources": ["Dimers", "Sports Mole", "Sportytrader", "Sportskeeda", "MightyTips", "Forebet"]
+    }
+  ]
+}
