@@ -4,5 +4,14 @@
   "totalStaked": 721,
   "netProfit": 214.29,
   "roi": 30,
-  "winRate": 54
+  "winRate": 54,
+  "bySport": {
+    "NBA": {"bets": 6, "wins": 5, "profit": 123.49, "roi": 96},
+    "Football": {"bets": 15, "wins": 8, "profit": 39.25, "roi": 15},
+    "Rugby": {"bets": 5, "wins": 3, "profit": 102, "roi": 102},
+    "Tennis": {"bets": 8, "wins": 2, "profit": -45.60, "roi": -43},
+    "Snooker": {"bets": 4, "wins": 3, "profit": 17.25, "roi": 31},
+    "Tennis de Table": {"bets": 3, "wins": 1, "profit": -29.60, "roi": -62},
+    "Curling": {"bets": 1, "wins": 1, "profit": 7.50, "roi": 30}
+  }
 }

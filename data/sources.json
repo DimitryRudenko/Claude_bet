@@ -1,25 +1,52 @@
 {
+  "nba": {
+    "CBS Sports": {"predictions": 2, "correct": 2, "accuracy": 100},
+    "FOX Sports": {"predictions": 3, "correct": 2, "accuracy": 67},
+    "Pickswise": {"predictions": 2, "correct": 2, "accuracy": 100},
+    "Covers": {"predictions": 1, "correct": 1, "accuracy": 100},
+    "FanDuel Research": {"predictions": 3, "correct": 2, "accuracy": 67},
+    "OddsShark": {"predictions": 1, "correct": 1, "accuracy": 100}
+  },
   "football": {
-    "RueDesJoueurs": {"predictions": 0, "correct": 0, "accuracy": null},
-    "Sportytrader": {"predictions": 0, "correct": 0, "accuracy": null},
-    "Coteur": {"predictions": 0, "correct": 0, "accuracy": null},
-    "WinComparator": {"predictions": 0, "correct": 0, "accuracy": null},
-    "PronoSoft": {"predictions": 0, "correct": 0, "accuracy": null}
+    "RueDesJoueurs": {"predictions": 2, "correct": 1, "accuracy": 50},
+    "Sportytrader": {"predictions": 4, "correct": 1, "accuracy": 25},
+    "Forebet": {"predictions": 3, "correct": 1, "accuracy": 33},
+    "Sportskeeda": {"predictions": 3, "correct": 1, "accuracy": 33},
+    "FOX Sports": {"predictions": 1, "correct": 0, "accuracy": 0},
+    "FootyStats": {"predictions": 1, "correct": 0, "accuracy": 0},
+    "Sofascore": {"predictions": 1, "correct": 0, "accuracy": 0},
+    "FlashScore": {"predictions": 1, "correct": 0, "accuracy": 0},
+    "MightyTips": {"predictions": 3, "correct": 1, "accuracy": 33},
+    "Oddslot": {"predictions": 1, "correct": 0, "accuracy": 0},
+    "Dimers": {"predictions": 2, "correct": 0, "accuracy": 0},
+    "Sports Mole": {"predictions": 1, "correct": 0, "accuracy": 0},
+    "FootballWhispers": {"predictions": 2, "correct": 1, "accuracy": 50},
+    "Betfred": {"predictions": 1, "correct": 1, "accuracy": 100},
+    "Understat": {"predictions": 1, "correct": 1, "accuracy": 100},
+    "FBref": {"predictions": 1, "correct": 1, "accuracy": 100}
   },
   "tennis": {
-    "Tennis Tonic": {"predictions": 0, "correct": 0, "accuracy": null},
-    "Dimers": {"predictions": 0, "correct": 0, "accuracy": null},
-    "Last Word on Sports": {"predictions": 0, "correct": 0, "accuracy": null},
-    "Sportskeeda": {"predictions": 0, "correct": 0, "accuracy": null}
+    "Tennis Tonic": {"predictions": 3, "correct": 1, "accuracy": 33},
+    "Sportytrader": {"predictions": 2, "correct": 1, "accuracy": 50},
+    "Dimers": {"predictions": 2, "correct": 0, "accuracy": 0},
+    "FlashScore": {"predictions": 2, "correct": 0, "accuracy": 0},
+    "Sportskeeda": {"predictions": 1, "correct": 1, "accuracy": 100}
   },
-  "nba": {
-    "CBS Sports": {"predictions": 0, "correct": 0, "accuracy": null},
-    "FOX Sports": {"predictions": 0, "correct": 0, "accuracy": null},
-    "Pickswise": {"predictions": 0, "correct": 0, "accuracy": null},
-    "Covers": {"predictions": 0, "correct": 0, "accuracy": null}
+  "snooker": {
+    "LiveSnooker": {"predictions": 2, "correct": 2, "accuracy": 100},
+    "CueTracker": {"predictions": 2, "correct": 2, "accuracy": 100},
+    "TNT Sports": {"predictions": 1, "correct": 1, "accuracy": 100},
+    "TotallySnookered": {"predictions": 1, "correct": 1, "accuracy": 100},
+    "bet365": {"predictions": 1, "correct": 1, "accuracy": 100},
+    "SnookerHQ": {"predictions": 1, "correct": 1, "accuracy": 100}
   },
-  "rugby": {
-    "RugbyPass": {"predictions": 0, "correct": 0, "accuracy": null},
-    "Planet Rugby": {"predictions": 0, "correct": 0, "accuracy": null}
+  "tennisDeTable": {
+    "ETTU": {"predictions": 3, "correct": 1, "accuracy": 33},
+    "Flashscore": {"predictions": 2, "correct": 1, "accuracy": 50},
+    "Parions Sport": {"predictions": 3, "correct": 1, "accuracy": 33},
+    "OddsPortal": {"predictions": 1, "correct": 0, "accuracy": 0},
+    "Betclic": {"predictions": 1, "correct": 0, "accuracy": 0},
+    "Table Tennis Media": {"predictions": 1, "correct": 0, "accuracy": 0},
+    "AiScore": {"predictions": 1, "correct": 1, "accuracy": 100}
   }
 }
