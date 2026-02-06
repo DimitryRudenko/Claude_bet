@@ -36,7 +36,7 @@
       "stake": 8,
       "odds": 1.53,
       "confidence": 70,
-      "status": "pending",
+      "status": "lost",
       "sources": ["Sportytrader", "Sportskeeda", "MightyTips", "Oddslot"]
     }
   ]

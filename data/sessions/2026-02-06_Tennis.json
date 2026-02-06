@@ -16,7 +16,7 @@
       "stake": 25,
       "odds": 1.93,
       "confidence": 75,
-      "status": "pending",
+      "status": "lost",
       "sources": ["Tennis Tonic", "Sportytrader", "Dimers", "FlashScore"]
     },
     {
@@ -36,7 +36,7 @@
       "stake": 10,
       "odds": 1.96,
       "confidence": 72,
-      "status": "pending",
+      "status": "lost",
       "sources": ["Tennis Tonic", "Dimers", "FlashScore"]
     }
   ]
