@@ -1,0 +1,33 @@
+{
+  "id": "2026-02-06_Snooker",
+  "date": "2026-02-06",
+  "sport": "Snooker",
+  "competition": "World Grand Prix 2026 - Quarts de finale (Hong Kong)",
+  "status": "pending",
+  "budget": 50,
+  "staked": 25,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Chris Wakelin vs Zhao Xintong",
+      "pick": "Zhao Xintong ML",
+      "stake": 15,
+      "odds": 1.55,
+      "confidence": 65,
+      "status": "pending",
+      "sources": ["LiveSnooker", "CueTracker", "TNT Sports", "TotallySnookered", "bet365"]
+    },
+    {
+      "id": "P2",
+      "match": "Zhou Yuelong vs Ali Carter",
+      "pick": "Over 7.5 frames",
+      "stake": 10,
+      "odds": 1.75,
+      "confidence": 60,
+      "status": "pending",
+      "sources": ["CueTracker", "LiveSnooker", "SnookerHQ"]
+    }
+  ]
+}
