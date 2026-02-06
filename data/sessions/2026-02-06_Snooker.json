@@ -3,11 +3,11 @@
   "date": "2026-02-06",
   "sport": "Snooker",
   "competition": "World Grand Prix 2026 - Quarts de finale (Hong Kong)",
-  "status": "pending",
+  "status": "completed",
   "budget": 50,
   "staked": 25,
-  "profit": null,
-  "roi": null,
+  "profit": 15.75,
+  "roi": 63,
   "bets": [
     {
       "id": "P1",
@@ -16,7 +16,7 @@
       "stake": 15,
       "odds": 1.55,
       "confidence": 65,
-      "status": "pending",
+      "status": "won",
       "sources": ["LiveSnooker", "CueTracker", "TNT Sports", "TotallySnookered", "bet365"]
     },
     {
@@ -26,7 +26,7 @@
       "stake": 10,
       "odds": 1.75,
       "confidence": 60,
-      "status": "pending",
+      "status": "won",
       "sources": ["CueTracker", "LiveSnooker", "SnookerHQ"]
     }
   ]
