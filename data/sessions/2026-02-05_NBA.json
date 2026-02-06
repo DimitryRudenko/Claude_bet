@@ -3,11 +3,11 @@
   "date": "2026-02-05",
   "sport": "NBA",
   "competition": "NBA Regular Season - 5 Février",
-  "status": "pending",
+  "status": "completed",
   "budget": 75,
   "staked": 60,
-  "profit": null,
-  "roi": null,
+  "profit": 29.25,
+  "roi": 49,
   "bets": [
     {
       "id": "P1",
@@ -16,7 +16,7 @@
       "stake": 25,
       "odds": 1.66,
       "confidence": 78,
-      "status": "pending",
+      "status": "won",
       "sources": ["CBS Sports", "FOX Sports", "Pickswise", "Covers", "FanDuel Research"]
     },
     {
@@ -26,7 +26,7 @@
       "stake": 25,
       "odds": 1.91,
       "confidence": 78,
-      "status": "pending",
+      "status": "won",
       "sources": ["CBS Sports", "FOX Sports", "FanDuel Research", "OddsShark"]
     },
     {
@@ -36,7 +36,7 @@
       "stake": 10,
       "odds": 2.52,
       "confidence": 58,
-      "status": "pending",
+      "status": "lost",
       "sources": ["FOX Sports", "Pickswise", "FanDuel Research"]
     }
   ]
