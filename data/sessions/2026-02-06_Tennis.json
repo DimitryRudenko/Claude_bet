@@ -1,0 +1,43 @@
+{
+  "id": "2026-02-06_Tennis",
+  "date": "2026-02-06",
+  "sport": "Tennis",
+  "competition": "ATP/WTA - Tauson, Cirstea, Droguet",
+  "status": "pending",
+  "budget": 75,
+  "staked": 50,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Tauson + Cirstea",
+      "pick": "Combiné ML Tauson + Cirstea",
+      "stake": 25,
+      "odds": 1.93,
+      "confidence": 75,
+      "status": "pending",
+      "sources": ["Tennis Tonic", "Sportytrader", "Dimers", "FlashScore"]
+    },
+    {
+      "id": "P2",
+      "match": "Droguet",
+      "pick": "Droguet ML",
+      "stake": 15,
+      "odds": 2.43,
+      "confidence": 70,
+      "status": "pending",
+      "sources": ["Tennis Tonic", "Sportytrader", "Sportskeeda"]
+    },
+    {
+      "id": "P3",
+      "match": "Tauson",
+      "pick": "Tauson 2-0 (sets)",
+      "stake": 10,
+      "odds": 1.96,
+      "confidence": 72,
+      "status": "pending",
+      "sources": ["Tennis Tonic", "Dimers", "FlashScore"]
+    }
+  ]
+}
