@@ -1,0 +1,43 @@
+{
+  "id": "2026-02-06_TennisDeTable",
+  "date": "2026-02-06",
+  "sport": "Tennis de Table",
+  "competition": "Europe Top 16 Cup 2026 - Montreux",
+  "status": "pending",
+  "budget": 75,
+  "staked": 48,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Dang Qiu vs Tomislav Pucar",
+      "pick": "Dang Qiu ML",
+      "stake": 25,
+      "odds": 1.25,
+      "confidence": 80,
+      "status": "pending",
+      "sources": ["ETTU", "Flashscore", "CueTracker", "Parions Sport", "OddsPortal"]
+    },
+    {
+      "id": "P2",
+      "match": "Moregardh + Dang Qiu",
+      "pick": "Combiné Moregardh ML + Dang Qiu ML",
+      "stake": 15,
+      "odds": 1.33,
+      "confidence": 76,
+      "status": "pending",
+      "sources": ["ETTU", "Parions Sport", "Betclic", "Table Tennis Media"]
+    },
+    {
+      "id": "P3",
+      "match": "Franziska vs Gauzy",
+      "pick": "Gauzy ML",
+      "stake": 8,
+      "odds": 2.30,
+      "confidence": 55,
+      "status": "pending",
+      "sources": ["ETTU", "Parions Sport", "Flashscore", "AiScore"]
+    }
+  ]
+}
