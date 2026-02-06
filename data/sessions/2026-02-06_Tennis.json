@@ -3,11 +3,11 @@
   "date": "2026-02-06",
   "sport": "Tennis",
   "competition": "ATP/WTA - Tauson, Cirstea, Droguet",
-  "status": "pending",
+  "status": "completed",
   "budget": 75,
   "staked": 50,
-  "profit": null,
-  "roi": null,
+  "profit": -13.55,
+  "roi": -27,
   "bets": [
     {
       "id": "P1",
@@ -26,7 +26,8 @@
       "stake": 15,
       "odds": 2.43,
       "confidence": 70,
-      "status": "pending",
+      "status": "won",
+      "result": "Droguet gagne 7-6 7-6 vs Griekspoor",
       "sources": ["Tennis Tonic", "Sportytrader", "Sportskeeda"]
     },
     {

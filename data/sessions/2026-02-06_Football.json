@@ -3,11 +3,11 @@
   "date": "2026-02-06",
   "sport": "Football",
   "competition": "Austrian BL, Bulgarian FL, Saudi Pro League",
-  "status": "pending",
+  "status": "completed",
   "budget": 75,
   "staked": 48,
-  "profit": null,
-  "roi": null,
+  "profit": -48,
+  "roi": -100,
   "bets": [
     {
       "id": "P1",
@@ -16,7 +16,8 @@
       "stake": 30,
       "odds": 1.65,
       "confidence": 79,
-      "status": "pending",
+      "status": "lost",
+      "result": "Salzburg 0-2 Austria Vienna",
       "sources": ["Forebet", "Sportskeeda", "FOX Sports", "CueTracker", "FootyStats"]
     },
     {
@@ -26,7 +27,8 @@
       "stake": 10,
       "odds": 2.72,
       "confidence": 74,
-      "status": "pending",
+      "status": "lost",
+      "result": "Salzburg perd 0-2 (CSKA gagne 1-0)",
       "sources": ["Forebet", "Sofascore", "FlashScore", "Sportytrader"]
     },
     {

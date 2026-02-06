@@ -3,11 +3,11 @@
   "date": "2026-02-06",
   "sport": "Football",
   "competition": "Bundesliga + La Liga - Soirée 6 Février",
-  "status": "pending",
+  "status": "completed",
   "budget": 75,
   "staked": 62,
-  "profit": null,
-  "roi": null,
+  "profit": 7.20,
+  "roi": 12,
   "bets": [
     {
       "id": "P1",
@@ -16,7 +16,8 @@
       "stake": 40,
       "odds": 1.73,
       "confidence": 79,
-      "status": "pending",
+      "status": "won",
+      "result": "Union Berlin 1-1 Frankfurt (Brown 83', Querfeld 87'pen)",
       "sources": ["RueDesJoueurs", "Sportytrader", "FootballWhispers", "MightyTips", "Forebet", "Betfred", "Understat", "FBref"]
     },
     {
@@ -26,7 +27,8 @@
       "stake": 12,
       "odds": 3.36,
       "confidence": 72,
-      "status": "pending",
+      "status": "lost",
+      "result": "BTTS OK mais Celta perd 1-2 vs Osasuna",
       "sources": ["RueDesJoueurs", "Sportytrader", "Dimers", "Sportskeeda", "MightyTips", "FootballWhispers"]
     },
     {
@@ -36,7 +38,8 @@
       "stake": 10,
       "odds": 1.94,
       "confidence": 71,
-      "status": "pending",
+      "status": "lost",
+      "result": "Celta 1-2 Osasuna (Budimir 34', R.Garcia 79')",
       "sources": ["Dimers", "Sports Mole", "Sportytrader", "Sportskeeda", "MightyTips", "Forebet"]
     }
   ]
