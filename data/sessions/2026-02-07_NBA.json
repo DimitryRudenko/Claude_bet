@@ -1,0 +1,49 @@
+{
+  "id": "2026-02-07_NBA",
+  "date": "2026-02-07",
+  "sport": "NBA",
+  "competition": "NBA Regular Season - Feb 7",
+  "status": "pending",
+  "budget": 100,
+  "staked": 67,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Golden State Warriors @ LA Lakers",
+      "pick": "Lakers ML",
+      "type": "ML_simple",
+      "stake": 35,
+      "odds": 1.67,
+      "confidence": 78,
+      "ev_estimated": 13.6,
+      "status": "pending",
+      "sources": ["Pickswise", "CBS Sports", "PrizePicks", "FOX Sports", "Covers"]
+    },
+    {
+      "id": "P2",
+      "match": "Charlotte Hornets @ Atlanta Hawks",
+      "pick": "Charlotte ML",
+      "type": "ML_simple",
+      "stake": 20,
+      "odds": 1.74,
+      "confidence": 71,
+      "ev_estimated": 1,
+      "status": "pending",
+      "sources": ["Winners & Whiners", "DocSports", "PredicTem", "FOX Sports"]
+    },
+    {
+      "id": "P3",
+      "match": "Warriors @ Lakers + Hornets @ Hawks",
+      "pick": "Combiné Lakers ML + Charlotte ML",
+      "type": "combiné_2",
+      "stake": 12,
+      "odds": 2.91,
+      "confidence": 70,
+      "ev_estimated": 8,
+      "status": "pending",
+      "sources": ["Pickswise", "CBS Sports", "Winners & Whiners", "PredicTem", "FOX Sports"]
+    }
+  ]
+}

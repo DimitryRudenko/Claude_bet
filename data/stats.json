@@ -1,14 +1,14 @@
 {
-  "totalSessions": 19,
-  "totalBets": 55,
-  "totalStaked": 984,
+  "totalSessions": 20,
+  "totalBets": 58,
+  "totalStaked": 1051,
   "netProfit": 253.09,
   "roi": 26,
   "winRate": 52,
   "bankroll": 971,
   "currentStreak": -2,
   "maxDrawdown": -65.20,
-  "activeBetsExposure": 0,
+  "activeBetsExposure": 67,
   "bySport": {
     "NBA": {"bets": 8, "wins": 6, "profit": 126.49, "roi": 69},
     "Football": {"bets": 27, "wins": 14, "profit": 115.05, "roi": 43},
