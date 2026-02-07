@@ -13,9 +13,11 @@
       "id": "P1",
       "match": "Manchester United vs Tottenham",
       "pick": "Man Utd ML",
+      "type": "ML_simple",
       "stake": 30,
       "odds": 1.67,
       "confidence": 78,
+      "ev_estimated": 7.5,
       "status": "pending",
       "sources": ["Sportytrader", "Dimers", "Betfred", "Livescore", "Sportskeeda", "Sky Sports"]
     },
@@ -23,9 +25,11 @@
       "id": "P2",
       "match": "Wolves vs Chelsea + Newcastle vs Brentford",
       "pick": "Combiné Chelsea ML + Over 2.5 Newcastle-Brentford",
+      "type": "combiné_2",
       "stake": 15,
       "odds": 2.97,
       "confidence": 73,
+      "ev_estimated": 5.2,
       "status": "pending",
       "sources": ["Sportytrader", "Dimers", "FootyStats", "Sports Mole", "Flashscore", "OddsPortal"]
     },
@@ -33,9 +37,11 @@
       "id": "P3",
       "match": "Arsenal vs Sunderland",
       "pick": "Over 2.5 buts",
+      "type": "over_under",
       "stake": 15,
       "odds": 1.73,
       "confidence": 74,
+      "ev_estimated": 6.1,
       "status": "pending",
       "sources": ["Sportytrader", "Dimers", "Betfred", "FOX Sports", "Opta Analyst"]
     }

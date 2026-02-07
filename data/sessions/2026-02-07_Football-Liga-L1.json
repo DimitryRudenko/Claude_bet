@@ -13,9 +13,11 @@
       "id": "P1",
       "match": "Lens vs Rennes",
       "pick": "Lens ML",
+      "type": "ML_simple",
       "stake": 35,
       "odds": 1.72,
       "confidence": 78,
+      "ev_estimated": 8.3,
       "status": "pending",
       "sources": ["Sportytrader", "WinComparator", "FootballWhispers", "Forebet", "RueDesJoueurs", "NerdyTips", "Betzona", "SportsGambler"]
     },
@@ -23,9 +25,11 @@
       "id": "P2",
       "match": "Real Sociedad vs Elche",
       "pick": "Real Sociedad ML",
+      "type": "ML_simple",
       "stake": 15,
       "odds": 1.65,
       "confidence": 76,
+      "ev_estimated": 6.8,
       "status": "pending",
       "sources": ["Dimers", "Sportytrader", "SportsGambler", "WinDrawWin", "Tips.GG", "RueDesJoueurs", "Forebet"]
     },
@@ -33,9 +37,11 @@
       "id": "P3",
       "match": "Nantes vs Lyon + Barcelona vs Mallorca",
       "pick": "Combiné Lyon ML + BTTS Oui Barca-Mallorca",
+      "type": "combiné_2",
       "stake": 10,
       "odds": 3.12,
       "confidence": 73,
+      "ev_estimated": 5.0,
       "status": "pending",
       "sources": ["Sportytrader", "SportsGambler", "FootballWhispers", "Forebet", "DailySports", "MightyTips", "SportsMole"]
     }

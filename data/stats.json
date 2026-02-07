@@ -5,6 +5,10 @@
   "netProfit": 217.29,
   "roi": 28,
   "winRate": 53,
+  "bankroll": 935,
+  "currentStreak": 0,
+  "maxDrawdown": -65.20,
+  "activeBetsExposure": 140,
   "bySport": {
     "NBA": {"bets": 8, "wins": 6, "profit": 126.49, "roi": 69},
     "Football": {"bets": 15, "wins": 8, "profit": 39.25, "roi": 15},

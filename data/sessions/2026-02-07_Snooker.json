@@ -13,9 +13,11 @@
       "id": "P1",
       "match": "Zhao Xintong vs Xiao Guodong",
       "pick": "Over 9.5 frames",
+      "type": "over_under",
       "stake": 20,
       "odds": 1.85,
       "confidence": 75,
+      "ev_estimated": 6.5,
       "status": "pending",
       "sources": ["SnookerHQ", "CueTracker", "TNT Sports", "TotallySnookered", "SCMP", "LiveSnooker", "RTE"]
     }
