@@ -1,0 +1,37 @@
+{
+  "id": "2026-02-07_Rugby",
+  "date": "2026-02-07",
+  "sport": "Rugby",
+  "competition": "Six Nations 2026 - J2",
+  "status": "pending",
+  "budget": 75,
+  "staked": 20,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P2",
+      "match": "Italie vs Écosse",
+      "pick": "Over 46.5 points",
+      "type": "over_under",
+      "stake": 12,
+      "odds": 2.00,
+      "confidence": 70,
+      "ev_estimated": 10,
+      "status": "pending",
+      "sources": ["World Rugby", "RugbyPass", "Opta Analyst", "Oddschecker", "RTE", "RugbyWorld"]
+    },
+    {
+      "id": "P3",
+      "match": "Italie vs Écosse + Angleterre vs Pays de Galles",
+      "pick": "Combiné Over 46.5 pts ITA-ECO + Over 46.5 pts ANG-GAL",
+      "type": "combiné_2",
+      "stake": 8,
+      "odds": 2.63,
+      "confidence": 70,
+      "ev_estimated": 5,
+      "status": "pending",
+      "sources": ["World Rugby", "RugbyPass", "Opta Analyst", "Oddschecker"]
+    }
+  ]
+}
