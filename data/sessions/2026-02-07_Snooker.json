@@ -1,0 +1,23 @@
+{
+  "id": "2026-02-07_Snooker",
+  "date": "2026-02-07",
+  "sport": "Snooker",
+  "competition": "World Grand Prix 2026 - Semi-final",
+  "status": "pending",
+  "budget": 35,
+  "staked": 20,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Zhao Xintong vs Xiao Guodong",
+      "pick": "Over 9.5 frames",
+      "stake": 20,
+      "odds": 1.85,
+      "confidence": 75,
+      "status": "pending",
+      "sources": ["SnookerHQ", "CueTracker", "TNT Sports", "TotallySnookered", "SCMP", "LiveSnooker", "RTE"]
+    }
+  ]
+}
