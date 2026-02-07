@@ -1,11 +1,13 @@
 {
   "nba": {
-    "CBS Sports": {"predictions": 2, "correct": 2, "accuracy": 100},
-    "FOX Sports": {"predictions": 3, "correct": 2, "accuracy": 67},
-    "Pickswise": {"predictions": 2, "correct": 2, "accuracy": 100},
-    "Covers": {"predictions": 1, "correct": 1, "accuracy": 100},
+    "CBS Sports": {"predictions": 4, "correct": 3, "accuracy": 75},
+    "FOX Sports": {"predictions": 5, "correct": 3, "accuracy": 60},
+    "Pickswise": {"predictions": 4, "correct": 3, "accuracy": 75},
+    "Covers": {"predictions": 3, "correct": 2, "accuracy": 67},
     "FanDuel Research": {"predictions": 3, "correct": 2, "accuracy": 67},
-    "OddsShark": {"predictions": 1, "correct": 1, "accuracy": 100}
+    "OddsShark": {"predictions": 1, "correct": 1, "accuracy": 100},
+    "ESPN": {"predictions": 2, "correct": 1, "accuracy": 50},
+    "Bleacher Nation": {"predictions": 1, "correct": 1, "accuracy": 100}
   },
   "football": {
     "RueDesJoueurs": {"predictions": 2, "correct": 1, "accuracy": 50},

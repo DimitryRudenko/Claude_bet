@@ -1,0 +1,35 @@
+{
+  "id": "2026-02-06_NBA",
+  "date": "2026-02-06",
+  "sport": "NBA",
+  "competition": "NBA Regular Season - 6 Février",
+  "status": "completed",
+  "budget": 75,
+  "staked": 55,
+  "profit": 3,
+  "roi": 5,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Miami Heat @ Boston Celtics",
+      "pick": "Boston Celtics ML",
+      "stake": 40,
+      "odds": 1.45,
+      "confidence": 78,
+      "status": "won",
+      "result": "Celtics 98-96 Heat (comeback 22 pts)",
+      "sources": ["CBS Sports", "FOX Sports", "Pickswise", "Covers", "ESPN", "Bleacher Nation"]
+    },
+    {
+      "id": "P2",
+      "match": "Celtics ML + Timberwolves ML",
+      "pick": "Combiné Boston Celtics ML + Minnesota Timberwolves ML",
+      "stake": 15,
+      "odds": 1.90,
+      "confidence": 73,
+      "status": "lost",
+      "result": "Celtics gagnent mais Timberwolves perdent 115-119 vs Pelicans",
+      "sources": ["CBS Sports", "FOX Sports", "Pickswise", "Covers", "ESPN"]
+    }
+  ]
+}
