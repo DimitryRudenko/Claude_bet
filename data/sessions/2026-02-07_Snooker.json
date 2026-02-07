@@ -3,11 +3,11 @@
   "date": "2026-02-07",
   "sport": "Snooker",
   "competition": "World Grand Prix 2026 - Semi-final",
-  "status": "pending",
+  "status": "completed",
   "budget": 35,
   "staked": 20,
-  "profit": null,
-  "roi": null,
+  "profit": -20,
+  "roi": -100,
   "bets": [
     {
       "id": "P1",
@@ -18,7 +18,8 @@
       "odds": 1.85,
       "confidence": 75,
       "ev_estimated": 6.5,
-      "status": "pending",
+      "status": "lost",
+      "result": "Zhao 6-3 Xiao (9 frames, Under)",
       "sources": ["SnookerHQ", "CueTracker", "TNT Sports", "TotallySnookered", "SCMP", "LiveSnooker", "RTE"]
     }
   ]

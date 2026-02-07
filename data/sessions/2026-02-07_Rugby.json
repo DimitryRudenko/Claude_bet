@@ -2,12 +2,12 @@
   "id": "2026-02-07_Rugby",
   "date": "2026-02-07",
   "sport": "Rugby",
-  "competition": "Six Nations 2026 - J2",
-  "status": "pending",
+  "competition": "Six Nations 2026 - J1",
+  "status": "completed",
   "budget": 75,
   "staked": 20,
-  "profit": null,
-  "roi": null,
+  "profit": -20,
+  "roi": -100,
   "bets": [
     {
       "id": "P2",
@@ -18,7 +18,8 @@
       "odds": 2.00,
       "confidence": 70,
       "ev_estimated": 10,
-      "status": "pending",
+      "status": "lost",
+      "result": "Italie 18-15 Écosse (33 pts, Under - pluie torrentielle)",
       "sources": ["World Rugby", "RugbyPass", "Opta Analyst", "Oddschecker", "RTE", "RugbyWorld"]
     },
     {
@@ -30,7 +31,8 @@
       "odds": 2.63,
       "confidence": 70,
       "ev_estimated": 5,
-      "status": "pending",
+      "status": "lost",
+      "result": "ITA 18-15 ECO (Under) + ANG 48-7 GAL (Over) - leg 1 perdue",
       "sources": ["World Rugby", "RugbyPass", "Opta Analyst", "Oddschecker"]
     }
   ]

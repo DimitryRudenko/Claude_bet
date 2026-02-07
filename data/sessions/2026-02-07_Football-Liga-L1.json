@@ -3,11 +3,11 @@
   "date": "2026-02-07",
   "sport": "Football",
   "competition": "La Liga J23 + Ligue 1 J21",
-  "status": "pending",
+  "status": "completed",
   "budget": 75,
   "staked": 60,
-  "profit": null,
-  "roi": null,
+  "profit": 24.95,
+  "roi": 42,
   "bets": [
     {
       "id": "P1",
@@ -18,7 +18,8 @@
       "odds": 1.72,
       "confidence": 78,
       "ev_estimated": 8.3,
-      "status": "pending",
+      "status": "won",
+      "result": "Lens 3-1 Rennes",
       "sources": ["Sportytrader", "WinComparator", "FootballWhispers", "Forebet", "RueDesJoueurs", "NerdyTips", "Betzona", "SportsGambler"]
     },
     {
@@ -30,7 +31,8 @@
       "odds": 1.65,
       "confidence": 76,
       "ev_estimated": 6.8,
-      "status": "pending",
+      "status": "won",
+      "result": "Real Sociedad 2-1 Elche",
       "sources": ["Dimers", "Sportytrader", "SportsGambler", "WinDrawWin", "Tips.GG", "RueDesJoueurs", "Forebet"]
     },
     {
@@ -42,7 +44,8 @@
       "odds": 3.12,
       "confidence": 73,
       "ev_estimated": 5.0,
-      "status": "pending",
+      "status": "lost",
+      "result": "Lyon 1-0 Nantes (OK) + Barca 3-0 Mallorca (BTTS Non)",
       "sources": ["Sportytrader", "SportsGambler", "FootballWhispers", "Forebet", "DailySports", "MightyTips", "SportsMole"]
     }
   ]

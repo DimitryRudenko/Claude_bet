@@ -3,11 +3,11 @@
   "date": "2026-02-07",
   "sport": "Football",
   "competition": "Serie A J24 + Bundesliga J21",
-  "status": "pending",
+  "status": "completed",
   "budget": 75,
   "staked": 48,
-  "profit": null,
-  "roi": null,
+  "profit": -9.75,
+  "roi": -20,
   "bets": [
     {
       "id": "P1",
@@ -18,7 +18,8 @@
       "odds": 2.10,
       "confidence": 78,
       "ev_estimated": 19,
-      "status": "pending",
+      "status": "lost",
+      "result": "Gladbach 1-1 Leverkusen",
       "sources": ["Sportytrader", "Sportskeeda", "SportsGambler", "FootballWhispers", "DailySports", "WinDrawWin", "NerdyTips", "MightyTips"]
     },
     {
@@ -30,7 +31,8 @@
       "odds": 2.55,
       "confidence": 75,
       "ev_estimated": 15,
-      "status": "pending",
+      "status": "won",
+      "result": "Genoa 2-3 Napoli (5 buts)",
       "sources": ["Sportytrader", "Sportskeeda", "SportsGambler", "FootyStats", "FBref", "Understat", "Forebet"]
     },
     {
@@ -42,7 +44,8 @@
       "odds": 5.36,
       "confidence": 73,
       "ev_estimated": null,
-      "status": "pending",
+      "status": "lost",
+      "result": "Leverkusen nul 1-1 (leg 1 perdue)",
       "sources": ["Sportytrader", "Sportskeeda", "SportsGambler", "FootballWhispers", "NerdyTips", "MightyTips", "FootyStats", "FBref"]
     }
   ]
