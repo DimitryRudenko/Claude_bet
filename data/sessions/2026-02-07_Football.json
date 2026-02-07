@@ -1,0 +1,43 @@
+{
+  "id": "2026-02-07_Football",
+  "date": "2026-02-07",
+  "sport": "Football",
+  "competition": "Premier League - GW25",
+  "status": "pending",
+  "budget": 75,
+  "staked": 60,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Manchester United vs Tottenham",
+      "pick": "Man Utd ML",
+      "stake": 30,
+      "odds": 1.67,
+      "confidence": 78,
+      "status": "pending",
+      "sources": ["Sportytrader", "Dimers", "Betfred", "Livescore", "Sportskeeda", "Sky Sports"]
+    },
+    {
+      "id": "P2",
+      "match": "Wolves vs Chelsea + Newcastle vs Brentford",
+      "pick": "Combiné Chelsea ML + Over 2.5 Newcastle-Brentford",
+      "stake": 15,
+      "odds": 2.97,
+      "confidence": 73,
+      "status": "pending",
+      "sources": ["Sportytrader", "Dimers", "FootyStats", "Sports Mole", "Flashscore", "OddsPortal"]
+    },
+    {
+      "id": "P3",
+      "match": "Arsenal vs Sunderland",
+      "pick": "Over 2.5 buts",
+      "stake": 15,
+      "odds": 1.73,
+      "confidence": 74,
+      "status": "pending",
+      "sources": ["Sportytrader", "Dimers", "Betfred", "FOX Sports", "Opta Analyst"]
+    }
+  ]
+}
