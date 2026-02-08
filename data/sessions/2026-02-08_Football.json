@@ -3,11 +3,11 @@
   "date": "2026-02-08",
   "sport": "Football",
   "competition": "Ligue 1 J21 + Serie A J24",
-  "status": "pending",
+  "status": "completed",
   "budget": 100,
   "staked": 90,
-  "profit": null,
-  "roi": null,
+  "profit": -90,
+  "roi": -100,
   "bets": [
     {
       "id": "P1",
@@ -18,7 +18,7 @@
       "odds": 1.79,
       "confidence": 76,
       "ev_estimated": 16.4,
-      "status": "pending",
+      "status": "lost",
       "sources": ["Sportytrader", "NerdyTips", "RueDesJoueurs", "Goal.com", "WinDrawWin"],
       "closingOdds": null,
       "clv": null
@@ -32,7 +32,7 @@
       "odds": 1.90,
       "confidence": 74,
       "ev_estimated": 4.5,
-      "status": "pending",
+      "status": "lost",
       "sources": ["RueDesJoueurs", "Sportytrader", "WinComparator", "FootballWhispers", "SportsGambler"],
       "closingOdds": null,
       "clv": null
@@ -46,7 +46,7 @@
       "odds": 2.12,
       "confidence": 73,
       "ev_estimated": 10.2,
-      "status": "pending",
+      "status": "lost",
       "sources": ["RueDesJoueurs", "Sportytrader", "SportsGambler", "FootballWhispers", "NerdyTips"],
       "closingOdds": null,
       "clv": null
@@ -60,7 +60,7 @@
       "odds": 3.40,
       "confidence": 72,
       "ev_estimated": null,
-      "status": "pending",
+      "status": "lost",
       "sources": ["Multi-agents consolidation"],
       "closingOdds": null,
       "clv": null

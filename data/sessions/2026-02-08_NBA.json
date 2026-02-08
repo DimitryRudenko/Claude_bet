@@ -3,11 +3,11 @@
   "date": "2026-02-08",
   "sport": "NBA",
   "competition": "NBA Regular Season - Super Bowl Sunday",
-  "status": "pending",
+  "status": "completed",
   "budget": 100,
   "staked": 45,
-  "profit": null,
-  "roi": null,
+  "profit": -45,
+  "roi": -100,
   "bets": [
     {
       "id": "P1",
@@ -18,7 +18,7 @@
       "odds": 1.33,
       "confidence": 78,
       "ev_estimated": 1.3,
-      "status": "pending",
+      "status": "lost",
       "sources": ["Pickswise", "FOX Sports", "Dimers", "Covers", "SI.com", "DocSports"],
       "closingOdds": null,
       "clv": null
@@ -32,7 +32,7 @@
       "odds": 1.62,
       "confidence": 73,
       "ev_estimated": 4.0,
-      "status": "pending",
+      "status": "lost",
       "sources": ["Multi-agents consolidation"],
       "closingOdds": null,
       "clv": null

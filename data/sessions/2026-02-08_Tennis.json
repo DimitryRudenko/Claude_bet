@@ -32,7 +32,7 @@
       "odds": 1.59,
       "confidence": 73,
       "ev_estimated": -12.5,
-      "status": "pending",
+      "status": "won",
       "sources": ["Sportytrader", "TennGrand", "TennisTonic", "Sportskeeda", "LastWordOnSports"],
       "closingOdds": null,
       "clv": null

@@ -3,11 +3,11 @@
   "date": "2026-02-08",
   "sport": "JO Hiver",
   "competition": "Milan-Cortina 2026 - Biathlon + Patinage vitesse",
-  "status": "pending",
+  "status": "completed",
   "budget": 75,
   "staked": 65,
-  "profit": null,
-  "roi": null,
+  "profit": 80,
+  "roi": 123.1,
   "bets": [
     {
       "id": "P1",
@@ -18,7 +18,7 @@
       "odds": 1.80,
       "confidence": 75,
       "ev_estimated": 17.3,
-      "status": "pending",
+      "status": "won",
       "sources": ["TheSportsGeek", "Gambling911", "NBC Olympics", "CBS Sports"],
       "closingOdds": null,
       "clv": null
@@ -32,7 +32,7 @@
       "odds": 2.50,
       "confidence": 72,
       "ev_estimated": 12.5,
-      "status": "pending",
+      "status": "won",
       "sources": ["RueDesJoueurs", "IBU", "888sport", "NordicMag", "Olympics.com"],
       "closingOdds": null,
       "clv": null
