@@ -1,14 +1,14 @@
 {
-  "totalSessions": 30,
-  "totalBets": 90,
-  "totalStaked": 1706,
+  "totalSessions": 31,
+  "totalBets": 92,
+  "totalStaked": 1786,
   "netProfit": 338.36,
   "roi": 25,
   "winRate": 55,
   "bankroll": 1059.36,
   "currentStreak": -2,
   "maxDrawdown": -90,
-  "activeBetsExposure": 15,
+  "activeBetsExposure": 95,
   "bySport": {
     "NBA": {"bets": 13, "wins": 9, "profit": 142.66, "roi": 48},
     "Football": {"bets": 34, "wins": 17, "profit": 95.30, "roi": 14},
@@ -17,6 +17,7 @@
     "Snooker": {"bets": 5, "wins": 3, "profit": -2.75, "roi": -4},
     "Tennis de Table": {"bets": 3, "wins": 1, "profit": -29.60, "roi": -62},
     "Curling": {"bets": 1, "wins": 1, "profit": 7.50, "roi": 30},
-    "JO Hiver": {"bets": 2, "wins": 2, "profit": 80, "roi": 123}
+    "JO Hiver": {"bets": 2, "wins": 2, "profit": 80, "roi": 123},
+    "NFL": {"bets": 2, "wins": 0, "profit": 0, "roi": 0}
   }
 }
