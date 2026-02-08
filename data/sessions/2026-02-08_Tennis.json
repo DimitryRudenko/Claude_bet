@@ -1,0 +1,41 @@
+{
+  "id": "2026-02-08_Tennis",
+  "date": "2026-02-08",
+  "sport": "Tennis",
+  "competition": "ATP Montpellier Final + WTA Doha R1",
+  "status": "pending",
+  "budget": 50,
+  "staked": 30,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Linda Noskova vs Maya Joint",
+      "pick": "Noskova ML",
+      "type": "ML_simple",
+      "stake": 15,
+      "odds": 1.45,
+      "confidence": 58,
+      "ev_estimated": -1.4,
+      "status": "pending",
+      "sources": ["Dimers", "TheStatsZone", "MatchSignal", "Soccerbets365"],
+      "closingOdds": null,
+      "clv": null
+    },
+    {
+      "id": "P2",
+      "match": "Auger-Aliassime vs Mannarino",
+      "pick": "FAA gagne en 2 sets",
+      "type": "over_under",
+      "stake": 15,
+      "odds": 1.59,
+      "confidence": 73,
+      "ev_estimated": -12.5,
+      "status": "pending",
+      "sources": ["Sportytrader", "TennGrand", "TennisTonic", "Sportskeeda", "LastWordOnSports"],
+      "closingOdds": null,
+      "clv": null
+    }
+  ]
+}
