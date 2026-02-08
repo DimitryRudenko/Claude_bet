@@ -1,0 +1,41 @@
+{
+  "id": "2026-02-08_NBA",
+  "date": "2026-02-08",
+  "sport": "NBA",
+  "competition": "NBA Regular Season - Super Bowl Sunday",
+  "status": "pending",
+  "budget": 100,
+  "staked": 45,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "LA Clippers @ Minnesota Timberwolves",
+      "pick": "Timberwolves ML",
+      "type": "ML_simple",
+      "stake": 25,
+      "odds": 1.33,
+      "confidence": 78,
+      "ev_estimated": 1.3,
+      "status": "pending",
+      "sources": ["Pickswise", "FOX Sports", "Dimers", "Covers", "SI.com", "DocSports"],
+      "closingOdds": null,
+      "clv": null
+    },
+    {
+      "id": "P2",
+      "match": "LA Clippers @ MIN + Indiana @ Toronto",
+      "pick": "Timberwolves ML + Raptors ML",
+      "type": "combine_2legs",
+      "stake": 20,
+      "odds": 1.62,
+      "confidence": 73,
+      "ev_estimated": 4.0,
+      "status": "pending",
+      "sources": ["Multi-agents consolidation"],
+      "closingOdds": null,
+      "clv": null
+    }
+  ]
+}
