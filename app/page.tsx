@@ -13,7 +13,8 @@ import {
   Activity,
   Wallet,
   Trophy,
-  Dumbbell
+  Dumbbell,
+  Check
 } from 'lucide-react';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
@@ -77,6 +78,7 @@ export default function RuneLanding() {
             { label: 'Intelligence', href: '#intelligence' },
             { label: 'Performance', href: '#performance' },
             { label: 'Stats', href: '#stats' },
+            { label: 'Tarif', href: '#pricing' },
           ].map((item) => (
             <a key={item.label} href={item.href} className="text-[10px] font-bold tracking-[0.2em] text-white/30 uppercase cursor-pointer hover:text-white/60 transition-colors">{item.label}</a>
           ))}
@@ -233,6 +235,56 @@ export default function RuneLanding() {
             <SportTile name="NBA Basketball" rate="82% VICTOIRES" icon={Activity} />
             <SportTile name="Football Tier 1" rate="57% VICTOIRES" icon={Trophy} />
             <SportTile name="Rugby Union" rate="43% VICTOIRES" icon={Dumbbell} />
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing Section */}
+      <section id="pricing" className="py-32 px-6 relative scroll-mt-24">
+        <div className="max-w-7xl mx-auto flex flex-col items-center">
+          <div className="flex flex-col items-center mb-16">
+            <div className="h-px w-12 bg-emerald-500/50 mb-8" />
+            <h2 className="text-[10px] font-bold tracking-[0.3em] text-emerald-400 uppercase mb-4">Tarif</h2>
+            <p className="text-3xl font-light tracking-tight text-white/90">Un accès simple, un prix unique.</p>
+          </div>
+
+          <div className="relative group w-full max-w-[420px]">
+            <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500/20 to-indigo-500/20 rounded-[32px] blur-2xl opacity-40 group-hover:opacity-70 transition duration-1000" />
+            <GlassCard className="relative">
+              <div className="p-10 flex flex-col items-center text-center">
+                <div className="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center border border-emerald-500/20 mb-6">
+                  <Wallet className="w-6 h-6 text-emerald-400" />
+                </div>
+                <p className="text-[10px] font-bold tracking-[0.3em] text-white/30 uppercase mb-3">Abonnement Mensuel</p>
+                <div className="flex items-baseline gap-1 mb-2">
+                  <span className="text-5xl font-light tracking-tight text-white">15</span>
+                  <span className="text-lg text-white/40 font-light">€</span>
+                  <span className="text-[12px] text-white/30 ml-1">/mois</span>
+                </div>
+                <p className="text-[12px] text-white/30 mb-8">Accès complet à toute la plateforme</p>
+
+                <div className="w-full space-y-3 mb-10 text-left">
+                  {[
+                    "Analyses multi-agents illimitées",
+                    "Dashboard temps réel",
+                    "Alertes & recommandations IA",
+                    "Historique complet des sessions",
+                    "Suivi bankroll intelligent",
+                  ].map((feature) => (
+                    <div key={feature} className="flex items-center gap-3 px-4 py-2.5 rounded-lg bg-white/[0.02] border border-white/5">
+                      <Check className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                      <span className="text-[12px] text-white/50">{feature}</span>
+                    </div>
+                  ))}
+                </div>
+
+                <Link href="/login" className="w-full">
+                  <button className="group w-full py-3.5 rounded-full bg-emerald-500 text-black font-bold text-[11px] tracking-[0.15em] uppercase shadow-[0_0_40px_rgba(16,185,129,0.2)] hover:scale-[1.02] transition-transform active:scale-[0.98]">
+                    <span className="flex items-center justify-center gap-2">Commencer maintenant <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" /></span>
+                  </button>
+                </Link>
+              </div>
+            </GlassCard>
           </div>
         </div>
       </section>
