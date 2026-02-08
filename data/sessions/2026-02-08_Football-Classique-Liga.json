@@ -6,8 +6,8 @@
   "status": "completed",
   "budget": 200,
   "staked": 100,
-  "profit": 32.25,
-  "roi": 32.3,
+  "profit": 90.25,
+  "roi": 90.3,
   "bets": [
     {
       "id": "P1",
@@ -32,7 +32,7 @@
       "odds": 2.32,
       "confidence": 76,
       "ev_estimated": 16.0,
-      "status": "lost",
+      "status": "won",
       "sources": ["Unibet", "FootyStats", "FBref"],
       "closingOdds": null,
       "clv": null
