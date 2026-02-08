@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { getAllSessions } from '@/lib/sessions';
-import type { Bet } from '../types';
+import type { Bet } from '../../types';
 
 export default function ActivePage() {
   const sessions = getAllSessions();
@@ -20,7 +20,7 @@ export default function ActivePage() {
           <p className="text-4xl mb-4">✓</p>
           <h1 className="text-2xl font-semibold mb-2">Aucun pari en cours</h1>
           <p className="text-zinc-500 mb-6">Tous réglés.</p>
-          <Link href="/" className="px-4 py-2 bg-zinc-800 rounded-lg hover:bg-zinc-700 transition">Dashboard</Link>
+          <Link href="/dashboard" className="px-4 py-2 bg-zinc-800 rounded-lg hover:bg-zinc-700 transition">Dashboard</Link>
         </div>
       </div>
     );
@@ -29,9 +29,8 @@ export default function ActivePage() {
   return (
     <div className="min-h-screen bg-[#0a0a0f] text-white">
       <div className="max-w-6xl mx-auto px-8 py-10">
-
         <header className="mb-10">
-          <Link href="/" className="text-zinc-500 text-sm hover:text-white transition mb-4 inline-block">← Dashboard</Link>
+          <Link href="/dashboard" className="text-zinc-500 text-sm hover:text-white transition mb-4 inline-block">← Dashboard</Link>
           <h1 className="text-3xl font-semibold flex items-center gap-3">
             <span className="w-3 h-3 rounded-full bg-amber-400 animate-pulse" />
             Paris en cours
@@ -46,9 +45,8 @@ export default function ActivePage() {
                 <h2 className="font-medium">{session.sport}</h2>
                 <p className="text-zinc-500 text-sm">{session.competition}</p>
               </div>
-              <Link href={`/sessions/${session.id}`} className="text-zinc-500 text-sm hover:text-white transition">Détails →</Link>
+              <Link href={`/dashboard/sessions/${session.id}`} className="text-zinc-500 text-sm hover:text-white transition">Détails →</Link>
             </div>
-
             <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl overflow-hidden">
               <table className="w-full text-sm">
                 <thead>
@@ -82,7 +80,6 @@ export default function ActivePage() {
             </div>
           </section>
         ))}
-
       </div>
     </div>
   );

@@ -17,10 +17,8 @@ export default async function SessionDetailPage({ params }: PageProps) {
   return (
     <div className="min-h-screen bg-[#0a0a0f] text-white">
       <div className="max-w-5xl mx-auto px-8 py-10">
-
         <header className="mb-10">
-          <Link href="/sessions" className="text-zinc-500 text-sm hover:text-white transition mb-4 inline-block">← Sessions</Link>
-
+          <Link href="/dashboard/sessions" className="text-zinc-500 text-sm hover:text-white transition mb-4 inline-block">← Sessions</Link>
           <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl p-6">
             <div className="flex justify-between items-start mb-4">
               <div>
@@ -36,7 +34,6 @@ export default async function SessionDetailPage({ params }: PageProps) {
               </div>
               <span className="text-zinc-500 text-sm">{session.date}</span>
             </div>
-
             <div className="grid grid-cols-4 gap-4">
               <div><p className="text-zinc-500 text-xs">Budget</p><p className="text-lg font-medium">{session.budget}€</p></div>
               <div><p className="text-zinc-500 text-xs">Misé</p><p className="text-lg font-medium">{session.staked}€</p></div>
@@ -65,7 +62,6 @@ export default async function SessionDetailPage({ params }: PageProps) {
               {pendingBets > 0 && <span className="text-amber-400">{pendingBets} en cours</span>}
             </div>
           </div>
-
           <div className="bg-zinc-900/30 border border-zinc-800 rounded-xl overflow-hidden">
             <table className="w-full text-sm">
               <thead>
@@ -111,7 +107,6 @@ export default async function SessionDetailPage({ params }: PageProps) {
             </table>
           </div>
         </section>
-
       </div>
     </div>
   );
