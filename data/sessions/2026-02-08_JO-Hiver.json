@@ -1,0 +1,41 @@
+{
+  "id": "2026-02-08_JO-Hiver",
+  "date": "2026-02-08",
+  "sport": "JO Hiver",
+  "competition": "Milan-Cortina 2026 - Biathlon + Patinage vitesse",
+  "status": "pending",
+  "budget": 75,
+  "staked": 65,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Patinage vitesse 5000m hommes",
+      "pick": "Sander Eitrem (NOR) or",
+      "type": "ML_simple",
+      "stake": 25,
+      "odds": 1.80,
+      "confidence": 75,
+      "ev_estimated": 17.3,
+      "status": "pending",
+      "sources": ["TheSportsGeek", "Gambling911", "NBC Olympics", "CBS Sports"],
+      "closingOdds": null,
+      "clv": null
+    },
+    {
+      "id": "P2",
+      "match": "Biathlon relais mixte 4x6km",
+      "pick": "France or",
+      "type": "ML_simple",
+      "stake": 40,
+      "odds": 2.50,
+      "confidence": 72,
+      "ev_estimated": 12.5,
+      "status": "pending",
+      "sources": ["RueDesJoueurs", "IBU", "888sport", "NordicMag", "Olympics.com"],
+      "closingOdds": null,
+      "clv": null
+    }
+  ]
+}
