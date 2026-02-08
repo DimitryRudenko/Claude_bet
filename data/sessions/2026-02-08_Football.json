@@ -1,0 +1,69 @@
+{
+  "id": "2026-02-08_Football",
+  "date": "2026-02-08",
+  "sport": "Football",
+  "competition": "Ligue 1 J21 + Serie A J24",
+  "status": "pending",
+  "budget": 100,
+  "staked": 90,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Juventus vs Lazio",
+      "pick": "Juventus ML",
+      "type": "ML_simple",
+      "stake": 25,
+      "odds": 1.79,
+      "confidence": 76,
+      "ev_estimated": 16.4,
+      "status": "pending",
+      "sources": ["Sportytrader", "NerdyTips", "RueDesJoueurs", "Goal.com", "WinDrawWin"],
+      "closingOdds": null,
+      "clv": null
+    },
+    {
+      "id": "P2",
+      "match": "Le Havre vs Strasbourg",
+      "pick": "Strasbourg ML",
+      "type": "ML_simple",
+      "stake": 25,
+      "odds": 1.90,
+      "confidence": 74,
+      "ev_estimated": 4.5,
+      "status": "pending",
+      "sources": ["RueDesJoueurs", "Sportytrader", "WinComparator", "FootballWhispers", "SportsGambler"],
+      "closingOdds": null,
+      "clv": null
+    },
+    {
+      "id": "P3",
+      "match": "Angers vs Toulouse",
+      "pick": "Toulouse ML",
+      "type": "ML_simple",
+      "stake": 20,
+      "odds": 2.12,
+      "confidence": 73,
+      "ev_estimated": 10.2,
+      "status": "pending",
+      "sources": ["RueDesJoueurs", "Sportytrader", "SportsGambler", "FootballWhispers", "NerdyTips"],
+      "closingOdds": null,
+      "clv": null
+    },
+    {
+      "id": "P4",
+      "match": "Juventus ML + Strasbourg ML",
+      "pick": "Combiné Juve ML + Stras ML",
+      "type": "combine_2legs",
+      "stake": 20,
+      "odds": 3.40,
+      "confidence": 72,
+      "ev_estimated": null,
+      "status": "pending",
+      "sources": ["Multi-agents consolidation"],
+      "closingOdds": null,
+      "clv": null
+    }
+  ]
+}
