@@ -1,0 +1,41 @@
+{
+  "id": "2026-02-09_JO-Hiver",
+  "date": "2026-02-09",
+  "sport": "JO Hiver",
+  "competition": "JO Milan-Cortina 2026 - Day 3",
+  "status": "pending",
+  "budget": 100,
+  "staked": 40,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "J1",
+      "match": "Alpine Team Combined H.",
+      "pick": "Odermatt / Meillard Vainqueur",
+      "type": "ML_simple",
+      "stake": 25,
+      "odds": 1.60,
+      "confidence": 71,
+      "ev_estimated": 14,
+      "status": "pending",
+      "sources": ["FIS", "olympics.com", "888sport", "TheSportsGeek"],
+      "tournament": "JO 2026 - Ski Alpin Combiné par équipes H.",
+      "note": "Suisse 1-2-3 Mondiaux 2025. Von Allmen or DH hier meme piste. Format inaugural."
+    },
+    {
+      "id": "J2",
+      "match": "Ski Jumping Normal Hill H.",
+      "pick": "Domen Prevc Or",
+      "type": "ML_simple",
+      "stake": 15,
+      "odds": 1.92,
+      "confidence": 56,
+      "ev_estimated": 9.4,
+      "status": "pending",
+      "sources": ["888sport", "ATS", "SI", "FIS"],
+      "tournament": "JO 2026 - Saut à ski tremplin normal H.",
+      "note": "SOUS seuil 70%. 11/20 WC wins mais best NH = 13eme. Soeur Nika a perdu en favorite NH femmes."
+    }
+  ]
+}
