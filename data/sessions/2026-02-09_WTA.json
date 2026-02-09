@@ -1,0 +1,56 @@
+{
+  "id": "2026-02-09_WTA",
+  "date": "2026-02-09",
+  "sport": "Tennis",
+  "competition": "WTA 1000 Qatar Open Doha",
+  "status": "pending",
+  "budget": 60,
+  "staked": 45,
+  "profit": null,
+  "roi": null,
+  "note": "WTA BANNI - forcé par utilisateur. Tous les paris SOUS 50% confiance.",
+  "bets": [
+    {
+      "id": "W1",
+      "match": "Tjen vs Haddad Maia",
+      "pick": "Tjen ML",
+      "type": "ML_simple",
+      "stake": 15,
+      "odds": 1.61,
+      "confidence": 49,
+      "ev_estimated": 0,
+      "status": "pending",
+      "sources": ["Tennis Tonic", "LWOS", "Sportytrader"],
+      "tournament": "WTA 1000 Doha",
+      "note": "Haddad Maia 31.6% win rate hard court, en chute libre"
+    },
+    {
+      "id": "W2",
+      "match": "Tauson vs Siniakova",
+      "pick": "Tauson ML",
+      "type": "ML_simple",
+      "stake": 15,
+      "odds": 1.66,
+      "confidence": 44,
+      "ev_estimated": -3.7,
+      "status": "pending",
+      "sources": ["Dimers", "Tennis Tonic", "LWOS", "StatsZone"],
+      "tournament": "WTA 1000 Doha",
+      "note": "SOUS seuil 70%. Dimers donne seulement 52% Tauson"
+    },
+    {
+      "id": "W3",
+      "match": "Zheng vs Kenin",
+      "pick": "Zheng ML",
+      "type": "ML_simple",
+      "stake": 15,
+      "odds": 1.64,
+      "confidence": 41,
+      "ev_estimated": 6.6,
+      "status": "pending",
+      "sources": ["Tennis Tonic", "Sportskeeda", "LWOS"],
+      "tournament": "WTA 1000 Doha",
+      "note": "SOUS seuil 70%. Premier match après 4 mois chirurgie coude. EXTREME risque."
+    }
+  ]
+}
