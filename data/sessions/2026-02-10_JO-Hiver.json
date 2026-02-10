@@ -1,0 +1,59 @@
+{
+  "id": "2026-02-10_JO-Hiver",
+  "date": "2026-02-10",
+  "sport": "JO Hiver",
+  "competition": "JO Milan-Cortina 2026 - Biathlon Individuel 20km H + Curling Double Mixte Finale",
+  "status": "pending",
+  "budget": 75,
+  "staked": 55,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Biathlon Individuel 20km Hommes",
+      "pick": "Eric Perrot podium",
+      "type": "podium",
+      "stake": 30,
+      "odds": 1.90,
+      "confidence": 74,
+      "ev_estimated": 14,
+      "status": "pending",
+      "sources": ["RueDesJoueurs", "Olympics.com", "NordicMag", "FranceInfo"],
+      "model_used": "Expert consensus + forme CdM",
+      "closingOdds": null,
+      "clv": null
+    },
+    {
+      "id": "P2",
+      "match": "Curling Double Mixte Finale - USA vs Suède",
+      "pick": "Suède ML",
+      "type": "ML_simple",
+      "stake": 15,
+      "odds": 1.60,
+      "confidence": 73,
+      "ev_estimated": 5,
+      "status": "pending",
+      "sources": ["Olympics.com", "ESPN", "WorldCurling"],
+      "model_used": "Analyse demi-finales + forme",
+      "note": "Vérifier cote réelle >= 1.60 avant de parier",
+      "closingOdds": null,
+      "clv": null
+    },
+    {
+      "id": "P3",
+      "match": "Combiné Biathlon + Curling",
+      "pick": "Perrot podium + Suède ML",
+      "type": "combine_2legs",
+      "stake": 10,
+      "odds": 3.04,
+      "confidence": 55,
+      "ev_estimated": null,
+      "status": "pending",
+      "sources": ["RueDesJoueurs", "Olympics.com"],
+      "model_used": "Combiné 2-legs",
+      "closingOdds": null,
+      "clv": null
+    }
+  ]
+}
