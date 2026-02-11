@@ -1,0 +1,39 @@
+{
+  "id": "2026-02-11_Football-PL",
+  "date": "2026-02-11",
+  "sport": "Football",
+  "competition": "Premier League - J26",
+  "status": "pending",
+  "budget": 100,
+  "staked": 45,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Aston Villa vs Brighton",
+      "pick": "Aston Villa ML",
+      "type": "ML_simple",
+      "stake": 25,
+      "odds": 1.96,
+      "confidence": 78,
+      "ev_estimated": 13.7,
+      "model_used": "Poisson",
+      "status": "pending",
+      "sources": ["Sportytrader", "WinComparator", "SportsGambler", "FootyStats", "Understat"]
+    },
+    {
+      "id": "P2",
+      "match": "Sunderland vs Liverpool",
+      "pick": "Under 2.5 Goals",
+      "type": "Over_Under",
+      "stake": 20,
+      "odds": 1.97,
+      "confidence": 73,
+      "ev_estimated": 18.2,
+      "model_used": "Poisson",
+      "status": "pending",
+      "sources": ["SportsGambler", "FootyStats", "Understat", "Opta Analyst"]
+    }
+  ]
+}
