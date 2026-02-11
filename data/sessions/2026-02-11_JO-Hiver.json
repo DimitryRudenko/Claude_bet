@@ -1,0 +1,39 @@
+{
+  "id": "2026-02-11_JO-Hiver",
+  "date": "2026-02-11",
+  "sport": "JO Hiver",
+  "competition": "JO Milan Cortina 2026 - Biathlon 15km Individuel Femmes",
+  "status": "pending",
+  "budget": 75,
+  "staked": 45,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Biathlon 15km Individuel Femmes",
+      "pick": "Lou Jeanmonnot Podium (Top 3)",
+      "type": "podium",
+      "stake": 25,
+      "odds": 1.70,
+      "confidence": 78,
+      "ev_estimated": 7,
+      "status": "pending",
+      "sources": ["Sportytrader", "RueDesJoueurs", "Eurosport", "Olympics.com", "SI.com"],
+      "model_used": "consensus + forme CdM"
+    },
+    {
+      "id": "P2",
+      "match": "Biathlon 15km Individuel Femmes",
+      "pick": "Lou Jeanmonnot Victoire",
+      "type": "ML_simple",
+      "stake": 20,
+      "odds": 3.80,
+      "confidence": 73,
+      "ev_estimated": 12,
+      "status": "pending",
+      "sources": ["Sportytrader", "RueDesJoueurs", "Eurosport", "Olympics.com"],
+      "model_used": "consensus + forme CdM"
+    }
+  ]
+}
