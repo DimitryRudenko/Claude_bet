@@ -3,11 +3,11 @@
   "date": "2026-02-09",
   "sport": "Tennis",
   "competition": "WTA 1000 Qatar Open Doha",
-  "status": "pending",
+  "status": "completed",
   "budget": 60,
   "staked": 45,
-  "profit": null,
-  "roi": null,
+  "profit": 3.75,
+  "roi": 8,
   "note": "WTA BANNI - forcé par utilisateur. Tous les paris SOUS 50% confiance.",
   "bets": [
     {
@@ -19,10 +19,10 @@
       "odds": 1.61,
       "confidence": 49,
       "ev_estimated": 0,
-      "status": "pending",
+      "status": "won",
       "sources": ["Tennis Tonic", "LWOS", "Sportytrader"],
       "tournament": "WTA 1000 Doha",
-      "note": "Haddad Maia 31.6% win rate hard court, en chute libre"
+      "result": "Tjen 6-0 6-1 (démolition totale)"
     },
     {
       "id": "W2",
@@ -33,10 +33,10 @@
       "odds": 1.66,
       "confidence": 44,
       "ev_estimated": -3.7,
-      "status": "pending",
+      "status": "lost",
       "sources": ["Dimers", "Tennis Tonic", "LWOS", "StatsZone"],
       "tournament": "WTA 1000 Doha",
-      "note": "SOUS seuil 70%. Dimers donne seulement 52% Tauson"
+      "result": "Siniakova bat Tauson 6-4 6-1"
     },
     {
       "id": "W3",
@@ -47,10 +47,10 @@
       "odds": 1.64,
       "confidence": 41,
       "ev_estimated": 6.6,
-      "status": "pending",
+      "status": "won",
       "sources": ["Tennis Tonic", "Sportskeeda", "LWOS"],
       "tournament": "WTA 1000 Doha",
-      "note": "SOUS seuil 70%. Premier match après 4 mois chirurgie coude. EXTREME risque."
+      "result": "Zheng 4-6 6-1 6-2 (retour après chirurgie coude)"
     }
   ]
 }

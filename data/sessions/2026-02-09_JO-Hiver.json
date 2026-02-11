@@ -3,11 +3,11 @@
   "date": "2026-02-09",
   "sport": "JO Hiver",
   "competition": "JO Milan-Cortina 2026 - Day 3",
-  "status": "pending",
+  "status": "completed",
   "budget": 100,
   "staked": 40,
-  "profit": null,
-  "roi": null,
+  "profit": -40,
+  "roi": -100,
   "bets": [
     {
       "id": "J1",
@@ -18,10 +18,10 @@
       "odds": 1.60,
       "confidence": 71,
       "ev_estimated": 14,
-      "status": "pending",
+      "status": "lost",
       "sources": ["FIS", "olympics.com", "888sport", "TheSportsGeek"],
       "tournament": "JO 2026 - Ski Alpin Combiné par équipes H.",
-      "note": "Suisse 1-2-3 Mondiaux 2025. Von Allmen or DH hier meme piste. Format inaugural."
+      "result": "Odermatt/Meillard ARGENT (von Allmen/Nef OR, ex-aequo avec Kriechmayr/Feller)"
     },
     {
       "id": "J2",
@@ -32,10 +32,10 @@
       "odds": 1.92,
       "confidence": 56,
       "ev_estimated": 9.4,
-      "status": "pending",
+      "status": "lost",
       "sources": ["888sport", "ATS", "SI", "FIS"],
       "tournament": "JO 2026 - Saut à ski tremplin normal H.",
-      "note": "SOUS seuil 70%. 11/20 WC wins mais best NH = 13eme. Soeur Nika a perdu en favorite NH femmes."
+      "result": "Prevc 6ème. Or: Raimund (GER)"
     }
   ]
 }

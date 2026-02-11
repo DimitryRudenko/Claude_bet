@@ -3,11 +3,11 @@
   "date": "2026-02-10",
   "sport": "JO Hiver",
   "competition": "JO Milan-Cortina 2026 - Biathlon Individuel 20km H + Curling Double Mixte Finale",
-  "status": "pending",
+  "status": "completed",
   "budget": 75,
   "staked": 55,
-  "profit": null,
-  "roi": null,
+  "profit": 56.40,
+  "roi": 103,
   "bets": [
     {
       "id": "P1",
@@ -18,9 +18,10 @@
       "odds": 1.90,
       "confidence": 74,
       "ev_estimated": 14,
-      "status": "pending",
+      "status": "won",
       "sources": ["RueDesJoueurs", "Olympics.com", "NordicMag", "FranceInfo"],
       "model_used": "Expert consensus + forme CdM",
+      "result": "Perrot ARGENT (2ème, 19/20 tir, +14.8s de Botn NOR)",
       "closingOdds": null,
       "clv": null
     },
@@ -33,10 +34,10 @@
       "odds": 1.60,
       "confidence": 73,
       "ev_estimated": 5,
-      "status": "pending",
+      "status": "won",
       "sources": ["Olympics.com", "ESPN", "WorldCurling"],
       "model_used": "Analyse demi-finales + forme",
-      "note": "Vérifier cote réelle >= 1.60 avant de parier",
+      "result": "Suède 6-5 USA (2 pts dernière pierre Isabella Wrana)",
       "closingOdds": null,
       "clv": null
     },
@@ -49,9 +50,10 @@
       "odds": 3.04,
       "confidence": 55,
       "ev_estimated": null,
-      "status": "pending",
+      "status": "won",
       "sources": ["RueDesJoueurs", "Olympics.com"],
       "model_used": "Combiné 2-legs",
+      "result": "Les deux gagnés",
       "closingOdds": null,
       "clv": null
     }

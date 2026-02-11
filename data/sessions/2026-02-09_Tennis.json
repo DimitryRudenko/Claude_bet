@@ -18,9 +18,10 @@
       "odds": 1.65,
       "confidence": 73,
       "ev_estimated": 2.3,
-      "status": "pending",
+      "status": "lost",
       "sources": ["BleacherNation", "TennGrand", "Sportytrader", "TennisPrediction"],
-      "tournament": "Dallas ATP 500"
+      "tournament": "Dallas ATP 500",
+      "result": "Cilic bat Tien (upset, 600e victoire ATP Cilic)"
     },
     {
       "id": "P2",
@@ -31,9 +32,10 @@
       "odds": 1.50,
       "confidence": 73,
       "ev_estimated": 5.0,
-      "status": "pending",
+      "status": "won",
       "sources": ["CrushRushNews", "TennGrand", "Sportytrader", "Dimers"],
-      "tournament": "Rotterdam ATP 500"
+      "tournament": "Rotterdam ATP 500",
+      "result": "De Minaur 7-6(3) 6-2"
     },
     {
       "id": "P3",
@@ -44,9 +46,10 @@
       "odds": 2.48,
       "confidence": 70,
       "ev_estimated": null,
-      "status": "pending",
+      "status": "lost",
       "sources": [],
-      "tournament": "Dallas + Rotterdam ATP 500"
+      "tournament": "Dallas + Rotterdam ATP 500",
+      "result": "Tien perdu"
     },
     {
       "id": "P4",
@@ -57,10 +60,10 @@
       "odds": 2.75,
       "confidence": 54,
       "ev_estimated": 7.5,
-      "status": "pending",
+      "status": "won",
       "sources": ["TennGrand", "TennisPrediction", "LWOS"],
       "tournament": "Rotterdam ATP 500",
-      "note": "Contrarian pick - H2H 3-1 Humbert, SOUS seuil 70%"
+      "result": "Humbert 7-6(4) 3-6 6-3 (upset Medvedev)"
     },
     {
       "id": "P5",
@@ -71,10 +74,10 @@
       "odds": 1.73,
       "confidence": 60,
       "ev_estimated": 0,
-      "status": "pending",
+      "status": "lost",
       "sources": ["CrushRushNews", "TennGrand", "Sportytrader"],
       "tournament": "Rotterdam ATP 500",
-      "note": "SOUS seuil 70% - Bublik 7-0 en 2026 mais H2H 1-6"
+      "result": "Hurkacz 6-3 7-6(2)"
     },
     {
       "id": "P6",
@@ -85,10 +88,10 @@
       "odds": 1.80,
       "confidence": 55,
       "ev_estimated": -3,
-      "status": "pending",
+      "status": "won",
       "sources": ["Sportytrader"],
       "tournament": "Dallas ATP 500",
-      "note": "SOUS seuil 70% - Dimitrov RETIRED dernier match"
+      "result": "Michelsen 5-7 6-4 6-4"
     },
     {
       "id": "P7",
@@ -102,7 +105,7 @@
       "status": "pending",
       "sources": ["CrushRushNews", "Sportytrader"],
       "tournament": "Rotterdam ATP 500",
-      "note": "SOUS seuil 70% - Les deux inconsistants"
+      "note": "Match programmé le 11 février"
     },
     {
       "id": "P8",
@@ -113,10 +116,10 @@
       "odds": 2.30,
       "confidence": 46,
       "ev_estimated": null,
-      "status": "pending",
+      "status": "lost",
       "sources": ["Sportytrader"],
       "tournament": "Rotterdam ATP 500",
-      "note": "SOUS seuil 70% - Contrarian, MPP serve nucléaire indoor, Griekspoor 5 défaites"
+      "result": "Griekspoor 6-4 6-4"
     }
   ]
 }
