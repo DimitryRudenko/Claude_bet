@@ -1,0 +1,43 @@
+{
+  "id": "2026-02-13_JO-Hiver",
+  "date": "2026-02-13",
+  "sport": "JO Hiver",
+  "competition": "Biathlon - Sprint 10km Hommes",
+  "status": "pending",
+  "budget": 100,
+  "staked": 25,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Biathlon Sprint 10km Hommes",
+      "pick": "Dale podium",
+      "type": "podium",
+      "stake": 15,
+      "odds": 3.00,
+      "confidence": 75,
+      "ev_estimated": 20,
+      "model_used": "form_analysis",
+      "status": "pending",
+      "sources": ["RueDesJoueurs", "ATS.io", "NordicMag", "Winamax"],
+      "closingOdds": null,
+      "clv": null
+    },
+    {
+      "id": "P2",
+      "match": "Biathlon Sprint 10km Hommes",
+      "pick": "Perrot victoire",
+      "type": "vainqueur",
+      "stake": 10,
+      "odds": 5.00,
+      "confidence": 73,
+      "ev_estimated": 10,
+      "model_used": "form_analysis",
+      "status": "pending",
+      "sources": ["RueDesJoueurs", "ATS.io", "NordicMag", "Winamax"],
+      "closingOdds": null,
+      "clv": null
+    }
+  ]
+}
