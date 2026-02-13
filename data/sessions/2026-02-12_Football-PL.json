@@ -1,0 +1,43 @@
+{
+  "id": "2026-02-12_Football-PL",
+  "date": "2026-02-12",
+  "sport": "Football",
+  "competition": "Premier League - Brentford vs Arsenal",
+  "status": "pending",
+  "budget": 100,
+  "staked": 40,
+  "profit": null,
+  "roi": null,
+  "bets": [
+    {
+      "id": "P1",
+      "match": "Brentford vs Arsenal",
+      "pick": "Arsenal ML",
+      "type": "ML_simple",
+      "stake": 25,
+      "odds": 1.62,
+      "confidence": 75,
+      "ev_estimated": -4.2,
+      "model_used": "Poisson",
+      "status": "pending",
+      "sources": ["Sportytrader", "RueDesJoueurs", "WinComparator", "Coteur", "PronoSoft", "SportsGambler"],
+      "closingOdds": null,
+      "clv": null
+    },
+    {
+      "id": "P2",
+      "match": "Brentford vs Arsenal",
+      "pick": "Under 2.5 buts",
+      "type": "Over_Under",
+      "stake": 15,
+      "odds": 1.96,
+      "confidence": 78,
+      "ev_estimated": 13.7,
+      "model_used": "Poisson",
+      "status": "pending",
+      "sources": ["Poisson model", "FBref", "FootyStats", "SportsGambler"],
+      "closingOdds": null,
+      "clv": null
+    }
+  ]
+}
